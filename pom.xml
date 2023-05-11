@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.detrasoft</groupId>
 	<artifactId>server-gateway</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>server-gateway</name>
 	<description>Gateway de entrada de requisições</description>
 	<properties>
