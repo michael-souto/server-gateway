@@ -20,6 +20,7 @@ spring:
           '[/**]':
             allowedOrigins: "${ALLOWED_ORIGINS:*}"
             allowedHeaders: "*"
+            allowCredentials: true
             allowedMethods:
               - GET
               - POST
