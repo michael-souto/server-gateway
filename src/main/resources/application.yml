@@ -14,21 +14,6 @@ spring:
     name: server-gateway
   cloud:
     gateway:
-      globalcors:
-        add-to-simple-url-handler-mapping: true
-        cors-configurations:
-          '[/**]':
-            allowedOrigins: "${ALLOWED_ORIGINS:*}"
-            allowedHeaders: "*"
-            allowCredentials: true
-            allowedMethods:
-              - GET
-              - POST
-              - PUT
-              - DELETE
-              - OPTIONS
-              - HEAD
-              - PATCH
       discovery:
         locator:
           enabled: true
