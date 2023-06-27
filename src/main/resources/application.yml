@@ -18,7 +18,7 @@ spring:
         add-to-simple-url-handler-mapping: true
         cors-configurations:
           '[/**]':
-            allowedOrigins: "${ALLOWED_ORIGINS:*}"
+            allowedOriginPatterns: "*"
             allowedHeaders: "*"
             allowCredentials: true
             allowedMethods:
